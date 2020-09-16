@@ -6,8 +6,8 @@ const yaml = require("js-yaml");
 const { mainprefix , token } = yaml.load(fs.readFileSync("./config.yml"));
 
 module.exports = {
-    name: "profile",
-    description: "Vouch Users",
+    name: "help",
+    description: "help command",
     run: async (client, message, args) => {
         let prefix = await db.get(`prefix_${message.guild.id}`);
        if(prefix === null) prefix = mainprefix;
@@ -15,10 +15,11 @@ module.exports = {
         let guild = message.guild.iconURL()
         let embed = new Discord.MessageEmbed()
         .setTitle(`${client.user.username} Help 🛹`)
-        .setThumbnail(message.guild.displayAvatarURL())
+        .setThumbnail(message.author.displayAvatarURL())
         .setDescription(`
         ${prefix}vouch @user (reason)
         ${prefix}profile @user 
+        ${prefix}help
         `)
         .setFooter(message.guild.name, guild)
         message.channel.send(embed);
