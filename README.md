@@ -13,3 +13,6 @@ Get Started by installing packages
 Edit Config
 Run The bot
 ``npm start``
+
+
+<img src="https://prnt.sc/uilwwo" alt="Bot Preview" width="500" height="600">
