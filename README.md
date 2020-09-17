@@ -15,4 +15,4 @@ Run The bot
 ``npm start``
 
 
-<img src="https://prnt.sc/uilwwo" alt="Bot Preview">
+<img src="https://image.prntscr.com/image/nIRukAujR9G4JDQmBoBNMQ.png" alt="Bot Preview">
