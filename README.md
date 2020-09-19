@@ -3,7 +3,7 @@
 
 Simple Vouch Bot
 Made By Darkboy
-[Development Guild](https://discord.gg/Y5cWxGC)
+[Development Guild](https://discord.gg/6gzkUNq)
 
 
 
