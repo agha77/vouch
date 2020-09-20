@@ -5,6 +5,12 @@ module.exports = {
     name: "vouch",
     description: "Vouch Users",
     run: async (client, message, args) => {
+             let room = db.get(`vouch_${message.guild.id}`)
+        if(room === null) {
+            return message.channel.send(`You cant use vouch command on this guild because theres no vouch room to set it use \n-setchannel #room`)
+        }
+        if (message.channel.id === room) {
+
         let reason = args.slice(1).join(' ');
         let user = message.mentions.members.first()
         if(!user) {
@@ -37,4 +43,6 @@ if (user.id === message.author.id) {
             message.channel.send(`You Have Vouched <@${user.id}>!`)
             db.set(`vouch_${message.author.id}_${user.id}`, Date.now())
         }
-}}
+         return message.channel.send(`You Can use vouch command only on <#${room}>`);
+        }
+        }}
