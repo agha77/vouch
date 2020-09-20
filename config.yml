@@ -1,2 +1,3 @@
 token: '' # ur bot token!!
 mainprefix: '' # ur bot main prefix
+status: '' # ur bot status exmaple: 'Vouch Master | -help'
