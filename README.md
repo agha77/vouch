@@ -16,3 +16,10 @@ Run The bot
 
 
 <img src="https://image.prntscr.com/image/nIRukAujR9G4JDQmBoBNMQ.png" alt="Bot Preview">
+
+
+
+## UPDATED
+
+#0.0.2 (BETA)
+#setchannel (witch make vouch command can work on spefic channel only!)
