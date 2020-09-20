@@ -1,17 +1,14 @@
-# vouch
-
-
-Simple Vouch Bot
-Made By Darkboy
-[Development Guild](https://discord.gg/6gzkUNq)
+# Simple Vouch Bot
+- Made By Darkboy
+- [Development Guild](https://discord.gg/6gzkUNq)
 
 
 
 ## Self hosting
-Get Started by installing packages
+-Get Started by installing packages
 ``npm i``
-Edit Config
-Run The bot
+-Edit Config 
+-Run The bot
 ``npm start``
 
 
@@ -21,5 +18,6 @@ Run The bot
 
 ## UPDATED
 
-#0.0.2 (BETA)
+### 📺 Latest Uodates
+- verison: 0.0.2 Beta
 #setchannel (witch make vouch command can work on spefic channel only!)
