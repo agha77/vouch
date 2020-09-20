@@ -7,8 +7,8 @@
 ## Self hosting
 -Get Started by installing packages
 ``npm i``
--Edit Config 
--Run The bot
+- Edit Config 
+- Run The bot
 ``npm start``
 
 
@@ -16,8 +16,7 @@
 
 
 
-## UPDATED
-
 ### 📺 Latest Uodates
-- verison: 0.0.2 Beta
-#setchannel (witch make vouch command can work on spefic channel only!)
+<!-- YOUTUBE:START -->
+**Verison: 0.0.2 Beta** &nbsp;
+- #setchannel (witch make vouch command can work on spefic channel only!)
