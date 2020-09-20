@@ -14,7 +14,11 @@
 
 <img src="https://image.prntscr.com/image/nIRukAujR9G4JDQmBoBNMQ.png" alt="Bot Preview">
 
-
+### 💫 UpComing Updates
+**Verison: 0.0.3 Beta** &nbsp;
+- #unvouch @user <Reason>
+- #delvouch @user
+- unvouch will be added to #profile as unvouch's!
 
 ### 📺 Latest Uodates
 <!-- YOUTUBE:START -->
