@@ -11,7 +11,7 @@ const db = require('quick.db')
 const { join } = require('path');
 const { readdirSync } = require('fs');
 client.commands= new Discord.Collection();
-client.login(token)
+client.login(NzY5Njg5NTE0MzEzNjQ2MDkx.X5SrOA.NSl-EWIh2Bm3w3lIIO_fmtiiUZY)
 
   
 client.on('ready', () => {
